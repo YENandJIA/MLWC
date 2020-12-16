@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>My Little Whispering Calendar</title>
+      <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+</head>
+
+<html>
+    <head>
+    <style>
+      
+      body{
+      background-color: #f7f6f4;
+      margin: 0px;
+      }
+
+
+      .h1{
+        font-size: 36px;
+        font-family: 'Noto sans TC', sans-serif;
+        font-weight: 610;
+        letter-spacing: 2px;
+        color: #faf4f4;
+        display: inline;
+        }
+    
+      .h2{
+        font-size: 16px;
+        font-family: 'B612', sans-serif;
+        font-weight: 610;
+        letter-spacing: 3px;
+        color: #faf4f4;
+        display: inline;
+        text-align: left !important;
+      }
+    
+
+      .p1{
+        font-size: 16px;
+        font-family: 'B612', sans-serif;
+        font-weight: 610;
+        letter-spacing: 4px;
+        color: #faf4f4;
+        display: inline;
+        text-align: left !important;
+        line-height: 40px;
+      }
+
+        h{
+        font-size: 16px;
+        font-family: 'Noto sans TC', sans-serif;
+        font-weight: bold;
+        letter-spacing: 4px;
+        color: rgb(87, 66, 66);
+        line-height: 40px;
+        }
+    
+        .h3{
+        font-size: 13px;
+        font-family: 'Noto sans TC', sans-serif;
+        font-weight: normal;
+        letter-spacing: 4px;
+        color: rgb(187, 180, 180);
+        line-height: 40px;
+        }
+    
+
+      .img{
+      width: 100%;
+      height: 150px;
+      background-size: contain;
+      margin-bottom: 9px;
+      }
+    
+      .b1{
+      width: 100%; 
+      margin-left: auto;
+      margin-right: auto; 
+      background-color: #cab9ad; 
+      display: flex; 
+      justify-content: space-around;
+      position: relative;
+      }
+
+      .b2{
+      width: 100%; 
+      margin-left: auto;
+      margin-right: auto; 
+      background-color: #cab9ad; 
+      display: flex; 
+      justify-content: space-around;
+      position: relative;
+      }
+     
+    
+      .t1{
+      height: 42px;
+      width: 200px;
+      border-top-left-radius:8px;
+      border-top-right-radius:8px;
+      text-align: center;
+      vertical-align: middle;
+       }
+
+       .t2{
+      height: 42px;
+      width: 240px;
+      background-color: #a19284;
+      border-top-left-radius:8px;
+      border-top-right-radius:8px;
+      text-align: center;
+      vertical-align: middle;
+       }
+
+      
+    
+    
+    /*0618new start*/
+    
+     
+      /*新聞蒟蒻大標*/
+      h1:hover{
+         
+       opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+        }
+    
+      /*Speak up*/
+      h2:hover{
+         
+       opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+        }
+      /*三個標籤*/
+       .t1:hover{
+       opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+      }
+
+      .t2:hover{
+       opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+      }
+
+      /*首頁文章圖片*/
+      .img:hover{
+       opacity: 80%;
+       transition: opacity 0.2s linear 0.02s;
+      }
+    
+      /*三個Svg和蒟蒻svg*/
+      .svg{
+       opacity: 100%;
+      }
+    
+      .svg:hover{
+    
+        opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+      }
+    /*0618new end*/
+    
+      .block{
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #f3f3f3;
+      }
+    
+      .line{
+      width: 70%;
+      height: 4px;
+      background-color: #ced8d1;
+      display: inline-block;
+        }
+   
+    .left{
+      width:40%;
+      padding-top:4%;
+      margin-left: 10%;
+      text-align: center;
+      display: block;
+      vertical-align: middle;
+      float:left;
+    }
+    
+
+    .right{
+      width:40%;
+      margin-right: 10%;
+      padding-top:4%;
+      text-align: center;
+      vertical-align: middle;
+      display: block;
+      float:left;
+    }
+
+    .down{
+      background-color: #ece4da;
+      width:32%;
+      margin:5%;
+      margin-top: 3% !important;
+      padding-top:1%;
+      padding-left:6%;
+      padding-right:6%;
+      padding-bottom:1%;
+      display: inline-block;
+    }
+
+    .img {
+     border-radius: 50%;
+   }    
+
+    </style>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+    </style>
+    
+    </head>
+    <body>
+  
+      <div class="b1"><p class="h1">My Little Whispering Calendar</p></div>
+         <div class="b2">
+           <div class="t2" style="cursor: pointer;" onclick="location.href='../world/world.html'"><h style="color: #faf4f4;">打開日曆，傾聽回憶</h></div>
+           <div class="t1" style="background-color: #ece4da; cursor: pointer;" onclick="location.href='../taiwan/taiwan.html'"><h>關於YEN＆JIA</h></div>
+           <div class="t1" style="background-color: #ece4da; cursor:pointer;"  onclick="location.href='../feature/feature.html'"><h>協力・聲優名單</h></div>
+      </div>
+      </body>
+
+
+
+
+
+<div class="left">
+  <img class="img" id="img2" alt="img2" src="YEN.jpg" style="height: 50%; width: 50%; cursor: pointer;"><br><br>
+  <h>- YEN -<br><br>好想跟豚豚睡ㄉ飽飽ㄉ。</h>   
+</div>
+    
+
+<div class="right">
+  <img class="img" id="img3" alt="img3" src="JIA.jpg" style="height: 50%; width: 50%; cursor: pointer;"><br><br>
+  <h>- JIA -<br><br>第二年ㄌ，怎麼還沒殺死對方ㄋ。</h>   
+</div>

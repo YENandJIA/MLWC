@@ -1,0 +1,59 @@
+<html>
+<div style="cursor: pointer;" >
+        <!-- insert music into web -->
+        <audio id="music" src="testmusic.mp3" ></audio>
+
+        <!--to click -->
+        <img src="testimg.jpg" onClick="play()" alt="user"> 
+    
+
+<!-- to play-->
+<div><script >
+
+window.onload = function(){ 
+     var audio = document.getElementById('music');
+         audio.pause();//open the web without autoplay
+}
+function play() {
+    var audio = document.getElementById('music');
+    if (audio.paused) {
+        audio.play();
+        document.getElementById('musicImg').src="testimg.jpg";
+    }else{
+        audio.pause();
+        audio.currentTime = 0;//play the music from the start
+        document.getElementById('musicImg').src="testimg.jpg";
+    }
+}
+
+</script></div>
+</div>
+
+<div style="cursor: pointer;" >
+    <!-- insert music into web -->
+    <audio id="music2" src="testmusic2.mp3" ></audio>
+
+    <!--to click -->
+    <img src="testimg2.jpg" onClick="play()" alt="user"> 
+
+    <div><script>
+        window.onload = function(){ 
+             var audio = document.getElementById('music2');
+                 audio.pause();//open the web without autoplay
+        }
+        function play() {
+            var audio = document.getElementById('music2');
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('musicImg2').src="testimg2.jpg";
+            }else{
+                audio.pause();
+                audio.currentTime = 0;//play the music from the start
+                document.getElementById('musicImg2').src="testimg2.jpg";
+            }
+        }
+        </script></div>
+
+</div>
+
+</html>
