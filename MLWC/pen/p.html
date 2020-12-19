@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>My Little Whispering Calendar</title>
+      <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+</head>
+
+<html>
+    <head>
+    <style>
+      
+      body{
+      background-color: #f7f6f4;
+      margin: 0px;
+      }
+
+
+      .h1{
+        font-size: 36px;
+        font-family: 'B612', sans-serif;
+        font-weight: 610;
+        letter-spacing: 2px;
+        color: #faf4f4;
+        display: inline;
+        }
+    
+      .h2{
+        font-size: 16px;
+        font-family: 'B612', sans-serif;
+        font-weight: 610;
+        letter-spacing: 3px;
+        color: #faf4f4;
+        display: inline;
+        text-align: left !important;
+      }
+    
+
+      .p1{
+        font-size: 16px;
+        font-family: 'B612', sans-serif;
+        font-weight: 610;
+        letter-spacing: 4px;
+        color: #faf4f4;
+        display: inline;
+        text-align: left !important;
+        line-height: 40px;
+      }
+
+        h{
+        font-size: 16px;
+        font-family: 'Noto sans TC', sans-serif;
+        font-weight: bold;
+        letter-spacing: 4px;
+        color: rgb(87, 66, 66);
+        line-height: 40px;
+        }
+    
+        .h3{
+        font-size: 13px;
+        font-family: 'Noto sans TC', sans-serif;
+        font-weight: normal;
+        letter-spacing: 4px;
+        color: rgb(187, 180, 180);
+        line-height: 40px;
+        }
+    
+
+      .img{
+      width: 100%;
+      height: 150px;
+      background-size: contain;
+      margin-bottom: 9px;
+      }
+    
+      .b1{
+      width: 100%; 
+      margin-left: auto;
+      margin-right: auto; 
+      background-color: #cab9ad; 
+      display: flex; 
+      justify-content: space-around;
+      position: relative;
+      }
+
+      .b2{
+      width: 100%; 
+      margin-left: auto;
+      margin-right: auto; 
+      background-color: #cab9ad; 
+      display: flex; 
+      justify-content: space-around;
+      position: relative;
+      }
+    
+     
+    
+      .t1{
+      height: 42px;
+      width: 200px;
+      border-top-left-radius:8px;
+      border-top-right-radius:8px;
+      text-align: center;
+      vertical-align: middle;
+       }
+
+       .t2{
+      height: 42px;
+      width: 240px;
+      background-color: #a19284;
+      border-top-left-radius:8px;
+      border-top-right-radius:8px;
+      text-align: center;
+      vertical-align: middle;
+       }
+
+       .trans:hover{
+        opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+      }
+    
+    
+    /*0618new start*/
+    
+     
+      /*新聞蒟蒻大標*/
+      h1:hover{
+         
+       opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+        }
+    
+      /*Speak up*/
+      h2:hover{
+         
+       opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+        }
+      /*三個標籤*/
+       .t1:hover{
+       opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+      }
+
+      .t2:hover{
+       opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+      }
+
+      /*首頁文章圖片*/
+      .img:hover{
+       opacity: 80%;
+       transition: opacity 0.2s linear 0.02s;
+      }
+    
+      /*三個Svg和蒟蒻svg*/
+      .svg{
+       opacity: 100%;
+      }
+    
+      .svg:hover{
+    
+        opacity: 70%;
+       transition: opacity 0.2s linear 0.05s;
+    
+      }
+    /*0618new end*/
+    
+      .block{
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #f3f3f3;
+      }
+    
+      .line{
+      width: 70%;
+      height: 4px;
+      background-color: #ced8d1;
+      display: inline-block;
+        }
+   
+    .left{
+      width:40%;
+      margin-left: 10%;
+      text-align: center;
+      display: block;
+      vertical-align: middle;
+      float:left;
+    }
+    
+       
+    .right{
+      width:40%;
+      margin-right: 10%;
+      padding-top:8%;
+      text-align: center;
+      vertical-align: middle;
+      display: block;
+      float:left;
+    }
+
+    .down{
+      border-radius: 8px;
+      background-color: #e2d7ca;
+      width:32%;
+      margin:5%;
+      margin-top: 3% !important;
+      padding-top:1%;
+      padding-left:6%;
+      padding-right:6%;
+      padding-bottom:1%;
+      display: inline-block;
+    }
+
+    
+    </style>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+    </style>
+    
+    </head>
+    <body>
+  
+      <div class="b1"><p class="h1">My Little Whispering Calendar</p></div>
+         <div class="b2">
+           <div class="t2" style="cursor: pointer;" onclick="location.href='../world/world.html'"><h style="color: #faf4f4;">打開日曆，傾聽回憶</h></div>
+           <div class="t1" style="background-color: #ece4da; cursor: pointer;" onclick="location.href='../taiwan/taiwan.html'"><h>關於YEN＆JIA</h></div>
+           <div class="t1" style="background-color: #ece4da; cursor:pointer;"  onclick="location.href='../feature/feature.html'"><h>協力・聲優名單</h></div>
+      </div>
+      </body>
+
+
+
+
+
+<div class="left">
+  <img class="trans" id="img1" alt="img1" src="img1.png" style="height: 70%; width: 70%; cursor: pointer; font-family: 'Noto Sans TC';">
+  <br>
+  <h class="h3">點擊筆鼻，聆聽她的心聲吧</h><br>
+    <div class="down" style= height:40%;>
+      <p style="text-align:left; font-family: 'Noto Sans TC'; letter-spacing: 3px; line-height: 26px; font-size: 14px; color:rgb(87, 66, 66); font-weight: bold;" >
+        水彩筆・10歲・女
+        </p>
+       <p style="text-align:left; font-family: 'Noto Sans TC'; letter-spacing: 3px; line-height: 30px; font-size: 12px; color:rgb(87, 66, 66); font-weight:500" >
+        身長：20公分
+        <br>
+        個性：活潑開朗
+      </p>
+    </div>
+</div>
+
+<div class="right"><br>
+  <h style="font-size: 20px;">你想要回到筆鼻的哪一個時代呢？</h><br><br><h class="h3">選擇日期，傾聽筆鼻的過去吧</h><br><br><br>
+  <img class="trans" id="img2" alt="img2" src="svg2.svg" style="height: 60%; width: 60%; cursor: pointer;"><br><br><br>
+  <img class="trans" id="img3" alt="img3" src="svg3.svg" style="height: 60%; width: 60%; cursor: pointer;"><br><br><br>
+  <img class="trans" id="img4" alt="img4" src="svg4.svg" style="height: 60%; width: 60%; cursor: pointer;">
+</div>
+
+
+
+
+
+<audio></audio>
+<script>
+// 
+let myAuto = document.querySelector("audio")
+document.querySelectorAll("img").forEach((item,index)=>{
+item.onclick = ()=>{
+myAuto.setAttribute("src",index+1+".mp3")
+myAuto.play();
+}
+})
+
+</script>
