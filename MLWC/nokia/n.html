@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
       <meta charset="UTF-8">
-      <title>My Little Whispering Calendar</title>
+      <title>NOKIA－My Little Whispering Calendar</title>
       <meta name="viewport"
         content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
 </head>
@@ -93,7 +93,13 @@
       justify-content: space-around;
       position: relative;
       }
-    
+      .footer {
+            display: flex;
+            align-items: center;
+            background-color: #cab9ad;
+            min-height: 100px;
+            position: relative;
+        }
      
     
       .t1{
@@ -211,6 +217,7 @@
       width:auto;
       margin:5%;
       margin-top: 3% !important;
+      margin-bottom: 10%;
       padding-top:1%;
       padding-left:6%;
       padding-right:6%;
@@ -229,12 +236,11 @@
     </head>
     <body>
   
-      <div class="b1"><p class="h1">My Little Whispering Calendar</p></div>
+      <div class="b1" style=" cursor: pointer;" onclick="location.href='../homepage.html'"><p class="h1">My Little Whispering Calendar</p></div>
          <div class="b2">
-           <div class="t2" style="cursor: pointer;" onclick="location.href='../world/world.html'"><h style="color: #faf4f4;">打開日曆，傾聽回憶</h></div>
-           <div class="t1" style="background-color: #ece4da; cursor: pointer;" onclick="location.href='../taiwan/taiwan.html'"><h>關於YEN＆JIA</h></div>
-           <div class="t1" style="background-color: #ece4da; cursor:pointer;"  onclick="location.href='../feature/feature.html'"><h>協力・聲優名單</h></div>
-      </div>
+          <div class="t2" style="cursor: pointer;" onclick="location.href='../memory.html'"><h style="color: #faf4f4;">打開日曆，傾聽回憶</h></div>
+          <div class="t1" style="background-color: #ece4da; cursor: pointer;" onclick="location.href='../YandJ/YandJ.html'"><h>關於YEN＆JIA</h></div>
+          <div class="t1" style="background-color: #ece4da; cursor:pointer;"  onclick="location.href='../thanks2.html'"><h>協力・聲優名單</h></div>     </div>
       </body>
 
 
@@ -265,7 +271,20 @@
 </div>
 
 
-
+<div class="footer" style="height: 30%; width: 100%;">
+  <p style="font-size: 10px;
+  font-family: Noto sans TC;
+  line-height: 20px;
+  letter-spacing: 4px;
+  color: white;
+  display: block flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+  margin-left: 67%;">My Little Whispering Calendar<br>
+      Presented by YEN & JIA<br>
+      2020・冬</p>
+</div>
 
 
 <audio></audio>
